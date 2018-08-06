@@ -1,6 +1,6 @@
 {
-    "id":"pcd",
-    "description":"Debug CCTV",
+    "id":"netsniffer",
+    "description":"Network Sniffer",
     "activation": false,
     "resources": false,
     "cross": true,

@@ -1,6 +1,6 @@
 {
-  "id": "pcd",
-  "description": "CCTV debuf",
+  "id": "netsniffer",
+  "description": "Network Sniffer",
   "gendevices": 0,
   "single":0,
   "module": "index.js",
