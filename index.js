@@ -4,7 +4,6 @@ const spawn = require('child_process').spawn;
 const plugin = new Plugin();
 
 let debug = false;
-let buffer = '';
 
 plugin.on('params', params => {
   start(params);
