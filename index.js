@@ -31,7 +31,9 @@ function out(data) {
 
 
 function start(options) {
-  buf = '';
+  plugin.debug('version 0.0.2');
+  plugin.debug('start');
+  
   const tcpflow = spawn('tcpflow', ['-c', 'port', options.port]);
 
   tcpflow.stdout.on('data', out);
