@@ -1,0 +1,17 @@
+{
+  "id": "pcd",
+  "description": "CCTV debuf",
+  "gendevices": 0,
+  "single":0,
+  "module": "index.js",
+  "params": [
+    {
+      "name": "port",
+      "note": "$Port",
+      "type": "number",
+      "val": "554"
+    }
+  ],
+  "genrules": {},
+  "commands": []
+}
